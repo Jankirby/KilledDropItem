@@ -1,2 +1,2 @@
-# KilledHead
-Drops a "Steve" head on player death.
+# KilledCreeperHead
+Drops a "Creeper" head on player death.
