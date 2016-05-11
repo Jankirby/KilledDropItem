@@ -1,6 +1,6 @@
 <?php
 
-  namespace KilledCreeperHead;
+  namespace KilledDropItem;
   
   use pocketmine\utils\TextFormat as Color;
   use pocketmine\event\player\PlayerDeathEvent;
