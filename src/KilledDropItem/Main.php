@@ -18,14 +18,14 @@
     public function onDeath(PlayerDeathEvent $e){
         $p = $e->getPlayer();
          $lvl = $p->getLevel();
-         if(!$p->hasPermission("killedcreeperhead.drop")){
-         $item = Item::get(397,4,1);
+         if(!$p->hasPermission("killeddropitem.drop")){
+// Config stuff here
          $lvl->dropItem($p, $item);
     
     public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
-		if(strtolower($cmd->getName('KCHead'))){
+		if(strtolower($cmd->getName('killeddropitem'))){
 			if(count($args) == 0){
-				$sender->sendMessage(Color::AQUA. "This server is using KilledCreeperHead v1.0 by Jankirby");
+				$sender->sendMessage(Color::AQUA. "This server is using KilledDropItem v1.0 by Jankirby");
                         }
                 }
     }
