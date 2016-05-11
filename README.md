@@ -1,2 +1,4 @@
-# KilledCreeperHead
-Drops a "Creeper" head on player death.
+# KilledDropItem
+Drops any items you want that is set on your config on player death.
+
+# InDEV
